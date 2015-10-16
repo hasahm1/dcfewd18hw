@@ -1,0 +1,27 @@
+h1 {
+    font-size: 20px;
+    font-family: Lucida;
+    font-weight: bold;
+
+}
+
+h2 {
+    font-size: 16px;
+    line-height: 30%;
+    font-family: Georgia;
+}
+
+
+hr { 
+	width: 300%; height:1px;}
+
+body {
+	font-family: Times;
+}
+
+h4 { 
+	font-family: Times;
+	font-style: italic;
+
+
+	;}

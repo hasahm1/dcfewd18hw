@@ -3,8 +3,30 @@ body {
     font-size: 14px;
     color: #0E3042;
     background: #F27964;
+     letter-spacing: 0.05em;
+    word-spacing: .3em
+
 }
+
+h1 {
+	border-style: dashed;
+    border-width: 3px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    font-size: 22px;
+    line-height: 30%;
+}
+
+title {
+	letter-spacing: 0.5em;
+}
+
 
 a {
     text-decoration: none;
+}
+
+
+h3 {
+	text-decoration: underline; 
 }
