@@ -1,3 +1,9 @@
+ul {
+	padding: 0;
+	text-align: center;
+	list-style: none;
+}
+
 h1 {
     font-size: 20px;
     font-family: Lucida;
@@ -22,6 +28,8 @@ body {
 h4 { 
 	font-family: Times;
 	font-style: italic;
+}
 
-
-	;}
+h3 {
+	f
+}
