@@ -1,0 +1,59 @@
+.container {
+    background: #D8D8D8;
+    border: 1px solid #AFAFAF;
+    margin-bottom: 20px;
+    padding: 70px;
+}
+
+header,
+footer {
+    clear: both;
+    float: left;
+    width: 100%;
+}
+
+.wrapper {
+	width: 100%;
+}
+
+.wrapper2 {
+	width: 100%;
+}
+
+.main {
+    float: left;
+    width: 66%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.sidebar {
+    float: left;
+    width: 15%;
+}
+
+.sidebar2 {
+    float: right;
+    width: 15%;
+}
+
+.sidebar > .container, .sidebar2 > .container, .main > .container {
+	height: 200px;
+}
+
+.main1 {
+	float: left;
+	width: 49%;
+	margin-right: 1%;
+}
+
+.main2 {
+	float: left;
+	width: 49%;
+	margin-left: 1%
+}
+
+.main1 > .container, .main2 > .container {
+	height: 250px;
+}
+
