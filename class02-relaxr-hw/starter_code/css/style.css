@@ -82,8 +82,9 @@ a {
 header {
   height: 700px;
   background: url(../images/header_bg.jpg) no-repeat top center #131e27;
-  background-size: cover;
   padding-top: 32px;
+  background-size: cover;
+
 }
 
 .tagline {
@@ -114,9 +115,11 @@ header {
 
 /*Layout of Benefits Page*/
 
-.benefits {
-  padding: 20px;
-  padding-left: 30px;
+.benefits_section {
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-bottom: 30px;
+  height: 450px;
   border: 200px;
 }
 
