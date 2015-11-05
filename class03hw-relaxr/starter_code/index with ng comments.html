@@ -1,3 +1,11 @@
+<!--
+
+As we discussed on Saturday, be sure to break your layouts into rows and columns. Identify where there are rows and use a div. Identify the columns in the layout and use a div to contain its components.  You should also use the clearfix class to make sure that the parent containers wrap over content.
+
+See: http://learnlayout.com/clearfix.html
+
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,38 +35,22 @@
 		</div>
 	</header>
 
-<div class="main clearfix">
+<div class="main">
 
-<div class="wrapper">
-
-<section class="blog-wrapper">
+<section class="blog1">
+	<div class="wrapper">
 		<div class="article">
 		<h1>"How I implemented Relaxr in 2 weeks and changed my life."</h1>
 		<a href="#"><img src="images/blog_photo1.jpg" alt="working hard"></a>
-		<p><br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit nobis expedita atque dolores dolorum eum fugit dolore, accusantium sint, vitae fugiat recusandae itaque minima rem! Natus, fuga! Quasi debitis, voluptas!</br></p>
-
-		<p class="read_more"><a href="">Read More</a></p>
-			<div class="show-this-on-click">
-				<p class="hide" id="show-this-on-click">Maecenas quis auctor dui. Ut porta aliquam lorem, at volutpat orci commodo a. Suspendisse nunc orci, porttitor ac sapien a, rutrum porttitor odio. Phasellus faucibus tristique orci eget dictum. Proin tincidunt vehicula leo sed mattis. Nunc faucibus augue a pellentesque tristique. Proin suscipit in dui ut convallis.</p>
-			<p class="readless_hide"><a href="">Read Less</a></p>
-
-			</div> <!-- close show-this-on-click -->
-
-
-
-	</div> <!-- close article -->
-
-		<div class="article">
-		<h1>"I traveled across the globe thanks to Relaxr’s Excel auomation"."</h1>
-		<a href="#"><img src="images/blog_photo2.jpg" alt="relaxing with boat vacation"></a>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit nobis expedita atque dolores dolorum eum fugit dolore, accusantium sint, vitae fugiat recusandae itaque minima rem! Natus, fuga! Quasi debitis, voluptas!</p>
 		<h2 class="read_more"><a href="">Read More</a></h2>
 
 	</div> <!-- close article -->
-
+	</div> 	<!-- close wrapper -->
 </section> <!-- close blog1 section -->
 
 <section class="sidebar">
+	<div class="wrapper">
 		<div class="aside">
 		<h1>Categories</h1>
 			<nav>
@@ -76,16 +68,11 @@
 	<div class="aside">
 		<h1>About Relaxr</h1>
 		<p>Proin sed justo vel sapien varius auctor. Proin scelerisque massa at luctus tincidunt. Fusce porttitor, sapien sed tincidunt fringilla.</p>
-		<p class="learn_more"><a href="">Learn More</a></p>
-			<div class="appear-on-click">
-				<p class="hide" id="appear-on-click">
-				Maecenas quis auctor dui. Ut porta aliquam lorem, at volutpat orci commodo a. Suspendisse nunc orci, porttitor ac sapien a, rutrum porttitor odio.</p>
-
-				<p class="learnless_hide"><a href="">Learn Less</a></p>
-
-			</div> <!-- close appear-on-click -->
+		<h2 class="learn_more"><a href="">Learn More</a>
 
 	</div> <!-- close aside -->
+
+	</div> 	<!-- close wrapper -->
 
 
 	<div class="ads">
@@ -94,49 +81,40 @@
 
 </section> <!-- close sidebar -->
 
-</div> 	<!-- close wrapper -->
+
+<section class="blog2">
+	<div class="wrapper">
+		<div class="article">
+		<h1>"I traveled across the globe thanks to Relaxr’s Excel auomation"</h1>
+		<a href="#"><img src="images/blog_photo2.jpg" alt="relaxing whilst on vacation"></a>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit nobis expedita atque dolores dolorum eum fugit dolore, accusantium sint, vitae fugiat recusandae itaque minima rem! Natus, fuga! Quasi debitis, voluptas!</p>
+		<h2 class="read_more"><a href="">Read More</a></h2>
+
+	</div> <!-- close article -->
+	</div> 	<!-- close wrapper -->
+</section> <!-- close blog2 section -->
 
 </div> <!-- close main -->
 
-		<section id="bottom-cta" class="cta">
-			<a class="button button_signup" href="#">Sign Up Now!</a>
-		</section>
-		<footer>
-			<h4 class="logo">Relaxr</h4>
 
-			<ul>
-				<li><a href="#"><img src="images/twitter.png" alt="Twitter logo"></a></li>
-				<li><a href="#"><img src="images/facebook.png" alt="Facebook logo"></a></li>
-			</ul>
-
-			<p class="copyright">Copyright 2015. Relaxr.</p>
-		</footer>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
-<script src="interactive.js"></script>
+<footer>
+	<div class="wrapper">
+	<div class="border">
+	</div> <!-- close yellow border -->
+	<h4 class="logo">Relaxr</h4>
+		<ul>
+			<li><a href="#"><img src="images/twitter.png" alt="Twitter logo"></a></li>
+			<li><a href="#"><img src="images/facebook.png" alt="Facebook logo"></a></li>
+		</ul>
+		<p class="copyright">Copyright 2015. Relaxr.</p>
+	</div>	<!-- close wrapper -->
+</footer>
 
 
 </body>
 </html>
 
-
-<!-- 
-<aside>
-			<a class="btn btn-blue" href="#">Sign Up Now!</a>
-		</aside>
-		<footer>
-			<h4 class="logo">Relaxr</h4>
-
-			<ul>
-				<li><a href="#"><img src="images/twitter.png" alt="Twitter logo"></a></li>
-				<li><a href="#"><img src="images/facebook.png" alt="Facebook logo"></a></li>
-			</ul>
-
-			<p class="copyright">Copyright 2015. Relaxr.</p>
-		</footer>
-
-background color: #f0efef
+<!-- background color: #f0efef
 yellow: #f9e42e
 dark blue: #033048
 light grey: #606161
