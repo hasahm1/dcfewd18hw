@@ -120,7 +120,7 @@ header .logo {
 	background: #f6f6f6;
 }
 
-.aside {
+.aside a {
 	text-decoration: none;
 	padding-top: 25px;
 }
@@ -214,5 +214,9 @@ footer p {
 }
 
 .show-this-on-click {
+	display: none;
+}
+
+.appear-on-click {
 	display: none;
 }
