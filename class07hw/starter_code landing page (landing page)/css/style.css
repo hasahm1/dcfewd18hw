@@ -1,0 +1,187 @@
+/*
+Project Name: Relaxr
+Client: Your Client
+Author: Hasan Abdullah
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+
+html {
+  box-sizing: border-box;
+}
+*,*:before, *after {
+  box-sizing: inherit;
+}
+
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #606161;
+     font-size: 26px;
+     line-height: 1.4;
+      font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+      font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Center the container */
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.logo {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 800;
+  padding: 20px;
+  padding-left: 30px;
+  border: 200px;
+}
+
+header {
+  height: 700px;
+  background: url(../images/header_bg.jpg) no-repeat top center #131e27;
+  padding-top: 32px;
+  background-size: cover;
+
+}
+
+.tagline {
+  font-size: 48px;
+  text-align: center;
+  color: #fff;
+  margin: 120px 0 90px;
+  font-weight: 600;
+}
+
+.button {
+  width: 15%;
+  height: 30px;
+  border-radius: 5px;
+  font-weight: 800;
+  padding: 12px;
+  font-size: 28px;
+  text-align: center;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+.button_yellow {
+  background: #f9e42e;
+  color: #033048;
+}
+
+
+/*Layout of Benefits Page*/
+
+.benefits_section {
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-bottom: 30px;
+  height: 450px;
+  border: 200px;
+}
+
+.title-benefits {
+  color: #033048;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.benefits_section ul {
+  list-style: disc;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.testimonial_section {
+  background: url(../images/testimonial_bg.jpg) no-repeat top center #071324;
+  padding: 70px 0 70px;
+  color: #fff;
+}
+
+/*Layout of Testimonials Page*/
+
+blockquote {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+article {
+  background: #f9e42e;
+  padding: 30px;
+  text-align: center
+}
+
+.button_blue {
+  background: #033048;
+  color: #fff;
+  font-size: 24px;
+}
+
+footer {
+  background: #121212;
+  padding: 65px 0 45px;
+  text-align: center;
+}
+
+footer > ul > li {
+  display: inline-block;
+  list-style: none;
+}
+
+footer > p {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
