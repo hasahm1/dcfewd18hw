@@ -1,0 +1,39 @@
+<form method="post" action="send.php" enctype="multipart/form-data">
+    <fieldset class="form_userinfo">
+        <legend class="form_userinfo-title">User Info</legend>
+        <label for="fname">First Name</label>
+        <input type="text" placeholder="Your Name" id="fname">
+
+        <br>
+
+        <label for="lname">Last Name</label>
+        <input type="text" placeholder="Last Name" id="lname">
+    </fieldset>
+    <br><br>
+
+    <div>Address 1</div>
+    <label for="group1">Are you caffeinated?</label><br>
+    <input type="radio" name="group1" value="Yes"> Yes<br>
+    <input type="radio" name="group1" value="No" checked>No<br>
+
+<br>
+
+    <label for="group2">How many fingers?</label><br>
+    <input type="checkbox" name="group2" value="1">1<br>
+    <input type="checkbox" name="group2" value="2">2<br>
+    <input type="checkbox" name="group2" value="3">3<br>
+
+<br>
+    <label for="datafile">Resume</label>
+    <input type="file" id="datafile">
+
+    <br><br>
+
+    <textarea></textarea>
+    <select>
+        <option value="AR">1</option>
+        <option value="DC">2</option>
+    </select>
+    <input type="submit">
+    <input type="reset">
+</form>

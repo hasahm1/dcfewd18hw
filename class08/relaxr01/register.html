@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be.">
+
+		<title>Relaxr Blog</title>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800' rel='stylesheet' type='text/css'>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<h1 class="logo">Relaxr</h1>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="blog.html">Blog</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<section id="main">
+			<div class="container">
+				<section id="contact">
+		<div class="register">
+			<form class="form" method="post" action="send.php" enctype="multipart/form-data">
+				<fieldset class="info">
+					<legend class="form_registernow_title">Register Now!</legend>
+						<label class="input_descriptor" for="name">Name</label>
+        				<input class="input_field" type="text" placeholder="John Doe" id="name">
+        				<br>
+
+						<label class="input_descriptor" for="email">Email</label>
+        				<input class="input_field" type="text" placeholder="hello@gmail.com" id="email">
+        				<br>
+						
+						<label class="input_descriptor" for="phone">Phone</label>
+        				<input class="input_field" type="text" placeholder="415-123-4367" id="phone">
+        				<br>
+
+        				<label class="input_descriptor" for="state">State</label>
+        				<input class="input_field" type="text" placeholder="Alabama" id="state">
+        				<br>
+
+        				<label class="input_descriptor" for="password">Password</label>
+        				<input class="input_field" type="text" placeholder="xxx" id="password">
+        				<br>
+
+    					<label class="input_descriptor" for="group1">Which service are you interested in?</label><br>
+   	 					<input class="radio_selector" type="radio" name="group1" value="relaxing">Relaxing<br>
+    					<input class="radio_selector" type="radio" name="group1" value="email" checked>Email<br>
+    					<input class="radio_selector" type="radio" name="group1" value="phone" checked>Phone<br>
+    					<br>
+						
+						<label class="input_descriptor" for="group2">I agree to terms</label><br>
+    					<input class="input_field" type="checkbox" name="group2" value="1"><br>
+
+				</fieldset>
+				
+				<input class="register_btn" type="submit" value="Register Now!">
+			</form>
+		</div> <!-- closes the form container -->
+				</section>
+			</div>
+		</section>
+
+		<footer>
+			<h4 class="logo">Relaxr</h4>
+
+			<ul>
+				<li><a href="#"><img src="images/twitter.png" alt="Twitter logo"></a></li>
+				<li><a href="#"><img src="images/facebook.png" alt="Facebook logo"></a></li>
+			</ul>
+
+			<p class="copyright">Copyright 2015. Relaxr.</p>
+		</footer>
+	</body>
+</html>
